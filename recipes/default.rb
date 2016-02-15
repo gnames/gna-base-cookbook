@@ -1,4 +1,5 @@
 include_recipe "apt"
+package "libmysqlclient-dev"
 include_recipe "chef-client::config"
 include_recipe "chef-client::service"
 include_recipe "chef-client::delete_validation" unless Chef::Config["solo"]
