@@ -1,4 +1,4 @@
-eol-base CHANGELOG
+gna-base CHANGELOG
 ==================
 
 This file is used to list changes made in each version of the gna-base cookbook.

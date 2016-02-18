@@ -21,7 +21,7 @@ depends "windows", "~>1.34"
 depends "eol-users", "~>0.1"
 depends "gna-sensu-wrapper", "~>0.1.2"
 depends "eol-logrotate-wrapper", "~>0.1.1"
-depends "eol-docker", "~>0.1.8"
+depends "gna-docker", "~>0.1.8"
 
 %w(debian ubuntu).each do |os|
   supports os
