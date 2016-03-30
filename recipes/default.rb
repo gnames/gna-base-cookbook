@@ -1,5 +1,7 @@
 include_recipe "apt"
+package "build-essential"
 package "libmysqlclient-dev"
+package "nfs-client"
 package "ntp"
 include_recipe "chef-client::config"
 include_recipe "chef-client::service"
